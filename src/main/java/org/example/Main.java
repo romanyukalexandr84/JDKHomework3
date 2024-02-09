@@ -42,8 +42,11 @@ public class Main {
         System.out.println("Результат сравнения строковых массивов = " + compareArrays(mas7, mas9));
         System.out.println("Результат сравнения строковых массивов = " + compareArrays(mas7, mas10));
         System.out.println("Результат сравнения строковых массивов = " + compareArrays(mas11, mas12));
+        System.out.println();
 
+        Pair<String, Integer> pair = new Pair<>("Пароль для входа: ", 123456);
+        System.out.println(pair.getFirstValue());
+        System.out.println(pair.getSecondValue());
+        System.out.println(pair);
     }
-
-
 }
